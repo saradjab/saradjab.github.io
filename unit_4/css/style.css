@@ -1,0 +1,24 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kameron');
+
+
+
+body {
+    background-image: url(https://az616578.vo.msecnd.net/files/2016/11/05/636139646829249547453316934_10tb-dogsperm01-superJumbo.jpg);
+    background-size: cover;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+    color: gold;
+}
+
+p {
+	font-family: 'Kameron', cursive;
+    color: gold;
+}
+
+#slogan {
+	font-style: italic;
+}
