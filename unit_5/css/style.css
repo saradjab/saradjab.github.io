@@ -1,0 +1,44 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kameron');
+
+
+
+body {
+    background-image: url(http://www.publicdomainpictures.net/pictures/40000/velka/paw-prints-background.jpg);
+    background-size: cover;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+    color: gold;
+}
+
+p {
+	font-family: 'Kameron', cursive;
+    color: gold;
+}
+
+#slogan {
+	font-style: italic
+}
+
+header {
+	text-align: center;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	text-align: center;
+	background-color:  #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
