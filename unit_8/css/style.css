@@ -1,0 +1,118 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kameron');
+
+
+
+body {
+    background-image: url(http://www.publicdomainpictures.net/pictures/40000/velka/paw-prints-background.jpg);
+    background-size: cover;
+}
+
+h1 {
+	font-family: 'Indie Flower', cursive;
+    color: gold;
+}
+
+p {
+	font-family: 'Kameron', cursive;
+    color: gold;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  width: 300px;
+  
+} 
+
+#slogan {
+	font-style: italic
+}
+
+header {
+	text-align: center;
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	text-align: center;
+	background-color:  #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#three_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+   background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#center {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+@media screen only and (max-width: 500px) {
+
+#left {
+    background-color: violet;
+   
+    padding: 10%;
+    float: none;
+    width: 10%;
+}
+
+#right {
+   background-color: violet;
+    
+    padding: 10%;
+    float: none;
+    width: 30%;
+}
+
+#center {
+    background-color: violet;
+  
+    padding: 10%;
+    float: none;
+    width: 30%;
+}
+
+
